@@ -34,8 +34,7 @@ void FindArithmeticMean(int[,] array)
 
     for (int j = 0; j < array.GetLength(1); j++)
     {
-        // double sum = 0; 
-        float sum = 0;
+        double sum = 0; 
         for (int i = 0; i < array.GetLength(0); i++)
         {
             sum += array[i, j];
